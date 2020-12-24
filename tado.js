@@ -53,7 +53,7 @@ const start = () => {
       // Fetch and log the current temperature every three minutes
       setInterval(() => {
         fetchTemperature();
-      }, 1000 * 5);
+      }, 1000 * 60 * 3);
     })
     .catch((error) => {
       console.log(error);
