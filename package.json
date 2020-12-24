@@ -1,0 +1,16 @@
+{
+  "name": "mmm-tado",
+  "version": "0.0.1",
+  "description": "A soon to be module for the magic mirror, displaying values from one personal's smart tado thermostate, retrieved via the tado api",
+  "main": "tado.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marco Aigner",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "querystring": "^0.2.0"
+  }
+}
